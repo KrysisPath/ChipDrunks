@@ -1,0 +1,34 @@
+.orange{
+    color: orange
+}
+
+.yellow{
+    color: yellow
+}
+
+div{
+    margin: auto;
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+}
+
+section  img{
+    width: 300px;
+}
+
+section nav a{
+    background: blanchedalmond;
+    color: black;
+    padding: 10px;
+    border: 5px solid blanchedalmond;
+    width: 140px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 7px
+}
+
+body{
+    background: maroon
+}
