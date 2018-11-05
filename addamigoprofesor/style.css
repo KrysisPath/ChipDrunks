@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1{background: #333; color: white;padding: 10px;}
+
+section{width: 400px; margin: 0 auto;text-align: center;}
+
+
+form > div {margin: 10px 0;}
+form > div input {padding: 10px;}
+
+button{background: orangered;padding: 10px 20px; border: 0; color : white;}
+button.blue{background: blueviolet;}
+button.green{background: green;}
+
+.error{color: red;}
+.esconder{display: none;}
+
+ul > li {list-style: none;margin: 10px;border-bottom: 2px solid #ccc; padding: 5px;}
+ul > li > div {display: inline-block;width: 100px;}

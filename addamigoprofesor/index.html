@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <h1>Mis amigos</h1>
+
+        <h2>Face</h2>
+        <ul id="amigosface"></ul>
+
+        <h2>Spoty</h2>
+        <ul id="amigosspoty"></ul>
+
+        <button id="cargarbtnFace" class="blue">Cargar amigos face</button>
+        <button id="cargarbtnSpoty" class="blue">Cargar amigos spoty</button>
+
+        <h2>Añadir amigo</h2>
+        <form action="" id="addForm" novalidate>
+            <div class="error esconder" id="servererr">No se ha podido guardar el amigo, inténtalo nuevamente</div>
+
+            <div>
+                <input type="text" placeholder="nombre" id="nombre" name="nombre" required pattern="[A-Za-z ]*">
+                <div class="error esconder" id="nombreerr">Debes introducir un nombre válido</div>
+            </div>
+            <div>
+                <input type="email" placeholder="email" id="email" name="email" required>
+                <div class="error esconder" id="emailerr" >Debes introducir un email válido</div>
+            </div>
+            <div><button id="addBtn">Añadir</button></div>
+        </form>
+
+    </section>
+
+</body>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./script.js"></script>
+
+</html>
