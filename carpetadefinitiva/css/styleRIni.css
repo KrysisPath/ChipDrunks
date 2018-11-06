@@ -1,0 +1,49 @@
+article
+{
+    text-align: center;
+}
+
+article > img
+{
+    width: 50%;
+}
+
+article > div
+{
+    text-align: center;
+}
+
+article > nav
+{
+    margin-bottom: 30%;
+}
+
+.orange{
+    color: maroon;
+}
+
+.yellow{
+    color: maroon;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8%;
+    color: orange;
+    background: transparent;
+}
+
+article > nav > div
+{
+    border: 5px solid maroon;
+    background-color: coral;
+    border-radius: 12px;
+    margin-top: 10%;
+    padding: 2%;
+    display: inline-block;
+}
+
+article > nav > div > a
+{
+    color: black;
+}

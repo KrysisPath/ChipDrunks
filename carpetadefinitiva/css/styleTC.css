@@ -1,0 +1,67 @@
+.boton{
+    background-color: rgb(253, 229, 11);
+    color: blanchedalmond;
+    border: 5px;
+    border-color: blanchedalmond;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.boton{
+    background-color: maroon;
+    color: blanchedalmond;
+    border-color: brown;
+    height: 50%;
+    display: inline-block;
+    margin: 50px;
+}
+
+.orange{
+    color: maroon;
+}
+
+.yellow{
+    color: maroon;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8%;
+    font-size: 200%;
+    color: orange;
+    background: transparent;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+th{
+    background-color: maroon;
+    color: blanchedalmond;
+    border-color: brown;
+    border-radius: 10px;
+    margin: 50px;
+}
+td{
+    background-color: maroon;
+    border-radius: 10px;
+    padding: 5%;
+}
+.cabe{
+    color: blanchedalmond;
+    border-color: maroon;
+    width: 80%;
+}
+table{
+    border-collapse: unset;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.titulo{
+    padding: 30px;
+}

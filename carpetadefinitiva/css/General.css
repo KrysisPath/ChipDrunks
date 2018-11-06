@@ -1,0 +1,157 @@
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral ;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	background-color: maroon;
+}
+
+.navegacion{
+	width: 90%;
+	max-width: 1000px;
+	padding:12px 0;
+}
+
+input[type="search"]{
+	padding: 10px;
+	border: none;
+}
+
+.search{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #fff;
+	padding:0 10px;
+	padding-bottom: 5px;
+	max-height: 85%;
+	overflow-x: hidden;
+	display: none;
+}
+
+.search-table{
+	width: 100%;
+}
+
+tbody tr td{
+	width: 100%;
+}
+
+tbody tr td a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #737373;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	padding-left: 20px;
+	border: 2px solid #fff;
+}
+
+tbody tr td a:hover{
+	border: 2px solid #378FD9;
+}
+
+.search::-webkit-scrollbar{ 
+	background:rgba(0,0,0,0);  
+}
+
+.search::-webkit-scrollbar-button{
+ 	background:#C1C1C1;  
+}
+
+.search::-webkit-scrollbar-thumb{ 
+	background:#C1C1C1; 
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+	display: none;
+}
+
+.list-group-item {
+    padding: 10px;
+    margin-top: 3%;
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.mymenu{
+    background-color: brown !important;
+}
+
+.myheader{
+    background-color: maroon !important;
+}
+
+header form.form-inline{
+    flex-flow: row;
+}
+
+header img {
+    width: 40px; height: 50%;
+}
+
+button {
+    background-color: blanchedalmond;
+    color: brown;
+    border:2px solid brown;
+}
+
+.mybutton {
+    color: blanchedalmond !important;
+    border-color: blanchedalmond !important; 
+}
+
+footer {
+    position: fixed;
+    bottom: -5px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    }
+
+footer > div {
+    height: 100px;
+}
+
+.btn-outline-success{
+    color: maroon !important;
+    background-color: blanchedalmond !important;
+    background-image: none !important;
+    border-color: maroon !important;
+}
+
+footer img{
+    width: 100%;
+}
+
+.pergamino{
+    margin-top: 4%;
+    background-image: url(../images/pergamino.png);
+    height: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5% auto 0;
+    margin-bottom: 5%;
+}
+
+.error{color: red;}
+.esconder{display: none;}
+
+@media screen and (min-width: 320px) and (max-width: 574px)
+{
+    header form, header button.btn{width: 60%;}
+}

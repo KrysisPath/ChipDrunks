@@ -1,0 +1,54 @@
+section>button{
+    background-color: maroon;
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+.name, .post, .mail, .pass, .repass {
+    border: 3px solid maroon;
+    padding: 3px;
+    color: maroon;
+    margin-top: 10px;
+}
+
+.orange{
+    color: maroon;
+}
+
+.yellow{
+    color: maroon;
+}
+
+.pergamino{
+    margin-top: 4%;
+    height: 100px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5% auto 0;
+    margin-bottom: 5%;
+}
+
+h1{
+    padding-top: 8%;
+    color: orange;
+    background: transparent;
+}
+
+article > form > button {
+    margin-top: 20px;
+    background-color: coral;
+    color: maroon;
+    border: 5px solid maroon;
+    font-size: 150%;
+    border-radius: 5px;
+}

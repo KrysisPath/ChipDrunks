@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    background-color: maroon;
+}
+
+section {width: 100%; margin: 0 auto;text-align: center;}
+
+.orange{
+    color: orange;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.blonch{
+    color: blanchedalmond;
+    display: block;
+    font-size: 70%;
+}
+
+.Chippy {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img{
+    width: 50%;
+}
+
+form > div {margin: 10px 0;}
+form > div input {padding: 10px;}
+
+button{margin: 10%; padding: 2%; font-size: 130%;}
+
+ul > li.usuariosRegistrados {list-style: none;margin: 10px; margin-left: 10%; margin-right: 10%; border-bottom: 2px solid #ccc; padding: 5px;}
+ul > li.usuariosRegistrados > div {display: inline-block;width: auto; padding-right: 2%;}

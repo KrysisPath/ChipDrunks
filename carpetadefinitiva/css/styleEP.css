@@ -1,0 +1,33 @@
+article {
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8%;
+}
+
+.orange{
+    color: maroon;
+}
+
+.yellow{
+    color: maroon;
+}
+
+#btnPerfil{
+    margin-bottom: 35%;
+}
+
+article > form > button {
+    margin-top: 20px;
+    background-color: coral;
+    color: maroon;
+    border: 5px solid maroon;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+form > div {margin: 10px 0;}
+form > div input {padding: 5px;}

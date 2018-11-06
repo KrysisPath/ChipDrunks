@@ -1,0 +1,33 @@
+article{
+    margin-bottom: 30%;
+}
+
+.orange{
+    color: maroon;
+}
+
+.yellow{
+    color: maroon;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8%;
+    color: orange;
+    background: transparent;
+}
+
+.boton{display: block;
+    text-align: center;
+    width: 100%;
+}
+section>button{border: 5px solid black;
+        width: 100px;
+        border-radius: 30px;
+}
+
+button:hover{background:yellow}
+
+.qrimg {
+    text-align: center;
+}

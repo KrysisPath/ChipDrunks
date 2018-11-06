@@ -1,0 +1,63 @@
+section>button{
+    background-color: rgb(253, 229, 11);
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+article > div img {
+    width: 100%;
+    height: 100%;
+    margin: 5px;
+}
+
+article > div {
+    width: 60%;
+    margin: 5px;
+
+}
+
+.orange{
+    color: maroon;
+}
+
+.yellow{
+    color: maroon;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8%;
+    color: orange;
+    background: transparent;
+}
+
+button.btn {
+    background-color: blanchedalmond;
+    color: brown;
+    border-color: brown;
+}
+
+article{
+    margin-bottom: 30%;
+    text-align: center;
+}
+
+.img{
+    margin: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.text{
+    margin: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid maroon;
+    background-color: blanchedalmond;
+    color: maroon;
+    padding: 3%;
+}
