@@ -12,8 +12,9 @@ document.getElementById('accederbtn').onclick = (function (evnt) {
         //ENVIAR
         $.ajax({
             method: "POST",
-            url: "http://www.mocky.io/v2/5bd9731d2f00005e0006d11d",//caso true
-            //url: "http://www.mocky.io/v2/5bd9777d2f0000790006d14c",//caso false
+            url: "http://www.mocky.io/v2/5bd9731d2f00005e0006d11d",
+            crossDomain: true,
+            dataType: 'jsonp',
             data: {
                 username: document.getElementById('username').value,
                 password: document.getElementById('password').value

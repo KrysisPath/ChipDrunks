@@ -14,6 +14,8 @@ function parseranking(rank) {
 
 $.ajax({
     url: "http://www.mocky.io/v2/5be17ed83000000f00d9aa0b",
+    crossDomain: true,
+    dataType: 'jsonp',
 }).done(function (data1) {
     console.log(data1);
 

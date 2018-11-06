@@ -20,6 +20,8 @@ $('#addBtn').click(function (evnt) {
             method: "POST",
             url: "http://www.mocky.io/v2/5bd9731d2f00005e0006d11d",//caso true
             // url: "http://www.mocky.io/v2/5bd9777d2f0000790006d14c",//caso false
+            crossDomain: true,
+            dataType: 'jsonp',
             data: newUsuario
         }).done(function (data) {
             console.log(data);

@@ -1,0 +1,106 @@
+body{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+section>button{
+    background-color: rgb(253, 229, 11);
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.list-group-item {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.mymenu{
+    background-color: brown !important;
+}
+
+.myheader{
+    background-color: maroon !important;
+}
+
+header form.form-inline{
+    flex-flow: row;
+}
+
+header img {
+    width: 40px; height: 50%;
+}
+
+button.btn {
+    background-color: blanchedalmond;
+    color: brown;
+    border-color: brown;
+}
+
+.mybutton {
+    color: blanchedalmond !important;
+    border-color: blanchedalmond !important; 
+}
+
+article
+{
+    text-align: center;
+}
+
+article > img
+{
+    width: 80%;
+}
+
+article > div
+{
+    text-align: center;
+}
+
+footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+footer > div {
+    height: 100px;
+}
+
+footer img{
+    width: 100%;
+}
+
+article > nav
+{
+    margin-bottom: 30%;
+}
+
+article > nav > div
+{
+    border: 5px solid maroon;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 10%;
+    padding: 2%;
+    display: inline-block;
+}
+
+article > nav > div > a
+{
+    color: maroon;
+}
+
+@media screen and (min-width: 320px) and (max-width: 574px)
+{
+    header form, header button.btn{width: 60%;}
+}
+

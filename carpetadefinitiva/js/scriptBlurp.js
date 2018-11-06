@@ -12,6 +12,8 @@ function Blurpclan(rank) {
 
 $.ajax({
     url: "http://www.mocky.io/v2/5be1a8ce3000003600d9ab20",
+    crossDomain: true,
+    dataType: 'jsonp',
 }).done(function (data2) {
     console.log(data2);
 

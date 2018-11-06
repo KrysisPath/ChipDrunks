@@ -14,6 +14,8 @@ document.getElementById('btnPerfil').onclick = (function (event) {
             method: "POST",
             url: "http://www.mocky.io/v2/5bd973312f00006f0006d126",//caso true
             // url: "http://www.mocky.io/v2/5bd977ac2f00003e0006d155",//caso false
+            crossDomain: true,
+            dataType: 'jsonp',
             data: {
                 nick: document.getElementById('nombre').value,
                 codigo_postal: document.getElementById('post').value,

@@ -1,0 +1,110 @@
+body{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+  
+}
+.boton{
+    background-color: rgb(253, 229, 11);
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.list-group-item {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: blanchedalmond;
+    color: brown;
+}
+section {
+    margin-bottom: 40%;
+}
+
+.mymenu{
+    background-color: brown !important;
+}
+
+.myheader{
+    background-color: maroon !important;
+}
+
+header form.form-inline{
+    flex-flow: row;
+}
+
+header img {
+    width: 40px; height: 50%;
+}
+
+button.btn {
+    background-color: blanchedalmond;
+    color: brown;
+    border-color: brown;
+}
+
+.mybutton {
+    color: blanchedalmond !important;
+    border-color: blanchedalmond !important; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    }
+
+footer > div {
+    height: 100px;
+}
+
+footer img{
+    width: 100%;
+}
+
+.boton{
+    background-color: blanchedalmond;
+    color: black;
+    border-color: brown;
+    height: 50%;
+    display: inline-block;
+    margin: 50px;
+}
+section {
+    text-align: center;
+}
+th{
+    background-color: blanchedalmond;
+    color: black;
+    border-color: brown;
+    height: 50%;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+td{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+.cabe{
+    
+    color: black;
+    border-color: blanchedalmond;
+    width: 80%;
+}
+table{
+    border-collapse: unset;
+    margin: auto;
+    width: 80%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 574px)
+{
+    header form, header button.btn{width: 60%;}
+}

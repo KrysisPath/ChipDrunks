@@ -1,0 +1,122 @@
+body{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+section>button{
+    background-color: rgb(253, 229, 11);
+    color: rgb(0, 0, 0);
+    border: 5px;
+    border-color: black;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+}
+
+.list-group-item {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: blanchedalmond;
+    color: brown;
+}
+
+.mymenu{
+    background-color: brown !important;
+}
+
+.myheader{
+    background-color: maroon !important;
+}
+
+header form.form-inline{
+    flex-flow: row;
+}
+
+header img {
+    width: 40px; height: 50%;
+}
+
+button.btn {
+    background-color: blanchedalmond;
+    color: brown;
+    border-color: brown;
+}
+
+.mybutton {
+    color: blanchedalmond !important;
+    border-color: blanchedalmond !important; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    }
+
+footer > div {
+    height: 100px;
+}
+
+footer img{
+    width: 100%;
+}
+
+section .list-group-item {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.fotoperfil{
+    margin-left: 40px;
+    display: inline-block;
+    border: 5px solid maroon;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+    margin-bottom: 15px;
+}
+
+h2.nombre{
+    font-size: 15px;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: maroon;
+}
+
+div.opciones{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 5px solid maroon;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+}
+
+a.editarperfil{
+    display: block;
+    font-size: 15px;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: maroon;
+    margin-right: 15px;
+}
+
+div.izda{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+div.dcha{
+    float: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 574px)
+{
+    header form, header button.btn{width: 60%;}
+}
