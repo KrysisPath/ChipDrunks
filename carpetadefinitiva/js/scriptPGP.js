@@ -1,4 +1,4 @@
-function initMap(bares){
+function initMap(bares) {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 17,
     center: { lat: 40.4630446, lng: -3.6767929 }
@@ -6,7 +6,7 @@ function initMap(bares){
 
 
 
-  if(bares)for (let index = 0; index < bares.length; index++) {
+  for (let index = 0; index < bares.length; index++) {
     //
     let bar = bares[index];
 
